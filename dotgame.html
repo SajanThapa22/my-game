@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/dotGame.css">
+</head>
+
+<body>
+    <div id="title">
+        <h1 id="score-title"></h1>
+        <h1 id="high-score-title">Highest score: 0</h1>
+        <div id="status">
+            <div class="lifes"></div>
+            <div class="lifes"></div>
+            <div class="lifes"></div>
+        </div>
+    </div>
+
+    <div id="starting">
+        <p>press "Enter" to start</p>
+        <p>press "Space" to pause and resume</p>
+        <p>press Arrow keys or A,S,D,W keys to control the ball</p>
+        <p>try hitting the yellow ball and avoid red ball</p>
+    </div>
+    <div id="game-over-box">
+        <p>GAME OVER</p>
+        <p id="restart-msg">Ooooops....Wanna play again?</p>
+        <button type="button" id="restart-btn">Yes</button>
+
+    </div>
+    <canvas></canvas>
+    <script src="/dotGame.js"></script>
+</body>
+
+</html>
